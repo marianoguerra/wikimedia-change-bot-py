@@ -9,6 +9,12 @@ by default it prints to the console, but it can be also be used to send the
 events to `Event Fabric <http://event-fabric.com/>`_ , more transports can
 be easily implemented.
 
+requirements
+------------
+
+* `irc module <https://pypi.python.org/pypi/irc>`_
+* `event fabric module <https://pypi.python.org/pypi/eventfabric>`_ (only for Event Fabric transport)
+
 run
 ---
 
@@ -19,3 +25,8 @@ to print to the console run something like::
 to send to Event Fabric first cp ef_config_sample.json to ef_config.json edit and run::
 
     python3 change2eventfabric.py ef_config.json
+
+license
+-------
+
+MIT
