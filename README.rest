@@ -1,0 +1,21 @@
+wmchangebot - a bot to monitor changes to wikimedia wikis
+=========================================================
+
+wmchangebot is a simple python 3 library that allows to extract structured
+information about changes in any wikimedia wiki in real time, then provides
+a way to specify "transports" to send those events somewhere else.
+
+by default it prints to the console, but it can be also be used to send the
+events to `Event Fabric <http://event-fabric.com/>`_ , more transports can
+be easily implemented.
+
+run
+---
+
+to print to the console run something like::
+
+    python3 wmchangebot.py irc.wikimedia.org \#es.wikipedia wmchangebot-py rc-pmtpa
+
+to send to Event Fabric first cp ef_config_sample.json to ef_config.json edit and run::
+
+    python3 change2eventfabric.py ef_config.json

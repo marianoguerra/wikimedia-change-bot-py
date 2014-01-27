@@ -1,0 +1,11 @@
+{
+    "ef_username": "USERNAME",
+    "ef_password": "PASSWORD",
+    "ef_channel": "es-wiki-changes",
+
+    "irc_server_url": "irc.wikimedia.org",
+    "irc_server_port": 6667,
+    "irc_channel": "#es.wikipedia",
+    "irc_nickname": "wmchangebot-SUFFIX",
+    "irc_listen_nickname": "rc-pmtpa"
+}
